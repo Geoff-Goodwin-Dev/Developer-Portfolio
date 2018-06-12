@@ -1,51 +1,24 @@
 <!doctype html>
 <html>
   <head>
+    <!--TITLE-->
     <title>Geoff Goodwin - Developer Page</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/jquery.pagepiling.css">
 
+    <!--META TAGS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--EXTERNAL STYLESHEETS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.pagepiling.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!--EXTERNAL SCRIPT TAGS-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/jquery.pagepiling.js"></script>
-
+    <script src="assets/javascript/app.js"></script>
   </head>
+
   <body>
-
-    <div id="headerPlusBody">
-
-      <div id="topRow">
-        <div id="headerContainer">
-          <div id="header">
-            <div id="logoName">
-              <h1>Geoff Goodwin</h1>
-            </div>
-            <div id="navLinkFarm">
-              <table id="navLinkTable">
-                <tr>
-                  <td class="table33">
-                    <a href="index.html" class="headerLink">About</a>
-                  </td>
-                  <td id="centerLink">
-                    <a href="portfolio.html" class="headerLink">Portfolio</a>
-                  </td>
-                  <td class="table33">
-                    <a href="contact.html" class="headerLink" id="headerLinkRight">Contact</a>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!--BODY SECTION-->
-
-          <!--<div id="contentContainer" align="center">-->
-
-            <div class="content">
 
       <ul id="myMenu">
         <li data-menuanchor="About" class="active"><a href="#About">About</a></li>
@@ -185,7 +158,6 @@
               <!--</a>-->
             <!--</div>-->
 
-          </div>
 
 
 <!--====================================================================-->
@@ -210,41 +182,5 @@
 
     </div>
 
-    <footer id="footer">
-      Copyright &copy Geoffrey Goodwin 2017
-    </footer>
-    <script>
-      $(document).ready(function() {
-        $('#pagepiling').pagepiling({
-          menu: '#myMenu',
-          direction: 'horizontal',
-          verticalCentered: true,
-          sectionsColor: [],
-          anchors: ['About', 'secondPage', 'thirdPage', 'fourthPage'],
-          scrollingSpeed: 300,
-          easing: 'swing',
-          loopBottom: true,
-          loopTop: false,
-          css3: true,
-          navigation: {
-            'textColor': '#000',
-            'bulletsColor': '#000',
-            'position': 'right',
-            'tooltips': ['About', 'Portfolio: Skynet', 'Portfolio: The Code Dictator', 'Portfolio: ']
-          },
-          normalScrollElements: null,
-          normalScrollElementTouchThreshold: 5,
-          touchSensitivity: 5,
-          keyboardScrolling: true,
-          sectionSelector: '.section',
-          animateAnchor: false,
-
-          //events
-          onLeave: function(index, nextIndex, direction){},
-          afterLoad: function(anchorLink, index){},
-          afterRender: function(){},
-        });
-      });
-    </script>
   </body>
 </html>
