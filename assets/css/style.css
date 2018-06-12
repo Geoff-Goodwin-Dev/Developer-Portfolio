@@ -1,0 +1,418 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+  color: #777777;
+  background-image: url('../images/pattern1.jpg');
+}
+
+/*=================================Header Section Items=====================================*/
+
+#headerPlusBody {
+  min-height: calc(100vh - 45px);
+}
+
+#topRow {
+  background-color: #ffffff;
+  z-index: 9999999999;
+}
+
+.section {
+  background-color: ;
+  box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  border: 1px solid #999999;
+}
+
+#header {
+  display: flex;
+  overflow: hidden;
+  max-width: 960px;
+  min-width: 270px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#headerContainer {
+  border-bottom: 3px solid #cccccc;
+  box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2);
+}
+
+#logoName {
+  float: left;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 20px;
+  width: 280px;
+  min-width: 280px;
+  text-align: center;
+}
+
+#navLinkFarm {
+  float: right;
+  text-align: right;
+  width: 680px;
+  margin: auto 0;
+  padding: 12px 0;
+}
+
+#navLinkTable {
+  width: 300px;
+  text-align: center;
+  float: right;
+}
+
+.table33 {
+  width: 33%;
+}
+
+#centerLink {
+  border-left: 1px solid #aaaaaa;
+  border-right: 1px solid #aaaaaa;
+  width: 34%;
+}
+
+.headerLink {
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.headerLink:hover {
+  text-shadow: 0 0 5px rgba(74, 170, 165, 0.8);
+  color: #000000;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+/*=================================Body Section Items=====================================*/
+
+h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #4aaaa5;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#contentContainer {
+  clear: both;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.content {
+  margin: 0;
+  max-width: 960px;
+  min-width: 270px;
+}
+
+.mainBodyContainer {
+  float: left;
+  max-width: 650px;
+  width: 64%;
+  padding: 0 25px 25px 25px;
+  text-align: left;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.mainBodyCaption {
+  color: #4aaaa5;
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+.contentSection {
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4), inset 3px 15px 20px rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 8px 8px -8px rgba(0, 0, 0, 0.5);
+  margin: 0 0 10px 0;
+}
+
+/*=================================About Me Section Items=====================================*/
+
+#profilePic {
+  float: left;
+  width: 45%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 6px;
+  border: 1px solid #666666;
+  border-radius: 3px;
+}
+
+/*=================================Connect with Me Section Items=====================================*/
+
+#connectWithMeContainer {
+  float: right;
+  max-width: 270px;
+  width: 32%;
+  padding: 0 25px 20px 25px;
+  margin-bottom: 15px;
+}
+
+#connectWithMeCaption {
+  padding: 20px 0;
+}
+
+.logoLink {
+  border-radius: 6px;
+  background-color: #eeeeee;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.logoLink:hover {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#logoFarm {
+  width: 100%;
+}
+
+
+/*=================================Portfolio Section Items=====================================*/
+
+h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+.folioItem {
+  width: 50%;
+  padding: 10px;
+  float: left;
+}
+
+.folioImageContainer {
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), inset 3px 3px 18px rgba(255, 255, 255, 0.3);
+  border: 1px solid #666666;
+  line-height: 0;
+}
+
+.folioImageContainer:hover {
+  animation: glow 1s linear 0s infinite alternate;
+}
+
+.folioImage {
+  width: 100%;
+}
+
+.folioCaption {
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(74, 170, 165, 0.8);
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/*=================================Contact Me Section Items=====================================*/
+
+form {
+  margin: 0 auto;
+}
+
+form > div {
+  position: relative;
+  margin-top: 16px;
+}
+
+form > div > input[type="text"],
+form > div > input[type="email"],
+form > div > textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  margin: 4px 0;
+  resize: vertical;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form > div > input[type="text"]:focus,
+form > div > input[type="email"]:focus {
+  background: white;
+}
+
+form > div > input[type="text"]:valid,
+form > div > input[type="email"]:valid  {
+  background: #ffffff url("../images/check.png") no-repeat 98% 50%;
+  background-size: 20px;
+  border: 1px solid #2db34a;
+}
+
+form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown),
+form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) {
+  background: #ffe6e6;
+  border: 1px solid #FF0000;
+}
+
+form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements,
+form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements {
+  max-height: 200px;
+  padding-bottom: 10px;
+}
+
+form > div .requirements {
+  max-height: 0;
+  -webkit-transition: .8s;
+  transition: .8s;
+  overflow: hidden;
+  color: red;
+  font-size: 14px;
+}
+
+label {
+  font-weight: bold;
+}
+
+#messageContent {
+  height: 200px;
+}
+
+input[type=submit],
+input[type=reset] {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  margin-right: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover{
+  background-color: #2D918D;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container {
+  border-radius: 5px;
+}
+
+/*=================================Footer Section Items=====================================*/
+
+footer {
+  clear: both;
+  border-top: 8px solid #4aaaa5;
+  background-color: #666666;
+  color: #999999;
+  font-size: 12px;
+  padding: 30px;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*=================================Media Queries=====================================*/
+
+@media only screen and (max-width: 980px) {
+
+  #header {
+    max-width: 960px;
+  }
+  #contentContainer {
+    margin: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  #header {
+    width: 100%;
+  }
+  .mainBodyContainer {
+    width: 100%;
+    float: none;
+    max-width: none;
+  }
+  #connectWithMeContainer {
+    width: 100%;
+    float: none;
+    max-width: none;
+  }
+  #logoFarm {
+    width: 40%;
+    min-width: 218px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+  #header {
+    display: block;
+  }
+  #logoName {
+    width: 100%;
+  }
+  #navLinkFarm {
+    width: 100%;
+  }
+  #navLinkTable {
+    width: 100%;
+  }
+  .mainBodyCaption{
+    text-align: center;
+  }
+  #profilePic {
+    float: none;
+    margin: 0 auto 15px auto;
+    position: unset;
+    width: 100%;
+  }
+  .folioItem {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+
+/*=================================Animation Key Frames=====================================*/
+
+@keyframes glow {
+  from {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), inset 3px 3px 18px rgba(255, 255, 255, 0.3);
+  }
+  to {
+    box-shadow: 0 0 30px rgba(255, 235, 0, 0.7);
+  }
+}
