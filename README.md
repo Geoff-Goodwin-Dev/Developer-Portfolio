@@ -12,7 +12,7 @@ These instructions will get you up and running:
 ```
 * This portfolio project is a webpage and as such you're welcome to download a copy and run it locally for review purposes.  
 
-* Otherwise, you can view the output at: TBD
+* Otherwise, you can view the output at: https://geoff-goodwin-dev.github.io/Developer-Portfolio/
 ```
 
 ### Prerequisites
