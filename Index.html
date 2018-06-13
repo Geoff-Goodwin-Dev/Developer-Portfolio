@@ -12,6 +12,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/jquery.pagepiling.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    <!--GOOGLE FONT-->
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
+
     <!--EXTERNAL SCRIPT TAGS-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/jquery.pagepiling.js"></script>
@@ -20,167 +23,93 @@
 
   <body>
 
+    <div id="projectsDropDown">
       <ul id="myMenu">
-        <li data-menuanchor="About" class="active"><a href="#About">About</a></li>
-        <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
-        <li data-menuanchor="thirdPage"><a href="#thirdPage">Third section</a></li>
-        <li data-menuanchor="fourthPage"><a href="#fourthPage">Fourth section</a></li>
+        <!--<li data-menuanchor="About" class="active"><a href="#About">About</a></li>-->
+        <a href="#Project1" class="projectLink">
+          <li data-menuanchor="Project1">Skynet</li>
+        </a>
+        <a href="#Project2" class="projectLink">
+          <li data-menuanchor="Project2">The Code Dictator</li>
+        </a>
+        <a href="#Project3" class="projectLink">
+          <li data-menuanchor="Project3">Burger</li>
+        </a>
+        <a href="#Project4" class="projectLink">
+          <li data-menuanchor="Project4">Constructor Word Guess</li>
+        </a>
+        <a href="#Project5" class="projectLink">
+          <li data-menuanchor="Project5">Bamazon</li>
+        </a>
       </ul>
-<!--====================================================================-->
-      <div id="pagepiling">
-        <div class="section">Some section 1</div>
-        <div class="section">Some section 2</div>
-        <div class="section">Some section 3</div>
-        <div class="section">Some section 4</div>
-      </div>
-
-          <!--<div class="contentSection mainBodyContainer">-->
-            <!--<h1 class="mainBodyCaption">Portfolio</h1>-->
-            <!--<hr>-->
-
-            <!--&lt;!&ndash;PORTFOLIO ITEM #1 - HANGMAN&ndash;&gt;-->
-            <!--<div class="folioItem">-->
-              <!--<a href="https://geoff-goodwin-dev.github.io/Hangman-Game/" target="_blank">-->
-                <!--<div class="folioImageContainer">-->
-                  <!--<img src="assets/images/folio1_hangman.png" class="folioImage" alt="hangman">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>Hangman</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
-            <!--</div>-->
-
-            <!--&lt;!&ndash;PORTFOLIO ITEM #2 - RPG&ndash;&gt;-->
-            <!--<div class="folioItem">-->
-              <!--<a href="https://geoff-goodwin-dev.github.io/Role-Playing-Game/">-->
-                <!--<div class="folioImageContainer">-->
-                  <!--<img src="assets/images/folio2_rpg.png" class="folioImage" alt="rpg">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>RPG Game</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
-            <!--</div>-->
-
-            <!--&lt;!&ndash;PORTFOLIO ITEM #3 - TRIVIA&ndash;&gt;-->
-            <!--<div class="folioItem">-->
-              <!--<a href="https://geoff-goodwin-dev.github.io/TriviaGame/">-->
-                <!--<div class="folioImageContainer">-->
-                  <!--<img src="assets/images/folio3_trivia.png" class="folioImage" alt="trivia">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>Trivia Game</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
-            <!--</div>-->
-
-            <!--&lt;!&ndash;PORTFOLIO ITEM #4 - Giftastic&ndash;&gt;-->
-            <!--<div class="folioItem">-->
-              <!--<a href="https://geoff-goodwin-dev.github.io/GifTastic/">-->
-                <!--<div class="folioImageContainer">-->
-                  <!--<img src="assets/images/folio4_giftastic.png" class="folioImage" alt="rutgers">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>GifTastic</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
-            <!--</div>-->
-
-            <!--&lt;!&ndash;PORTFOLIO ITEM #5 - Rock Paper Scissors&ndash;&gt;-->
-            <!--<div class="folioItem">-->
-              <!--<a href="https://geoff-goodwin-dev.github.io/RPS-Multiplayer/">-->
-                <!--<div class="folioImageContainer">-->
-                  <!--<img src="assets/images/folio5_rockpaperscissors.png" class="folioImage" alt="rock paper scissors">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>Rock Paper Scissors</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
-            <!--</div>-->
-
-            <!--&lt;!&ndash;PORTFOLIO ITEM #6 - LIRI Node App&ndash;&gt;-->
-            <!--<div class="folioItem">-->
-              <!--<a href="https://github.com/Geoff-Goodwin-Dev/liri-node-app">-->
-                <!--<div class="folioImageContainer">-->
-                  <!--<img src="assets/images/folio6_liriApp.png" class="folioImage" alt="LIRI App">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>LIRI Node App</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
-            <!--</div>-->
-
-            <!--&lt;!&ndash;PORTFOLIO ITEM #7 - Constructor Word Guess&ndash;&gt;-->
-            <!--<div class="folioItem">-->
-              <!--<a href="https://github.com/Geoff-Goodwin-Dev/Constructor-Word-Guess">-->
-                <!--<div class="folioImageContainer">-->
-                  <!--<img src="assets/images/folio7_wordGuess.png" class="folioImage" alt="Constructor Word Guess">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>Constructor Word Guess</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
-            <!--</div>-->
-
-            <!--&lt;!&ndash;PORTFOLIO ITEM #8 - Bamazon E-commerce App&ndash;&gt;-->
-            <!--<div class="folioItem">-->
-              <!--<a href="https://github.com/Geoff-Goodwin-Dev/Bamazon-NodeJS-MySQL">-->
-                <!--<div class="folioImageContainer">-->
-                  <!--<img src="assets/images/folio8_bamazon.png" class="folioImage" alt="Bamazon">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>eCommerce Node App</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
-            <!--</div>-->
-
-            <!--&lt;!&ndash;PORTFOLIO ITEM #9 - Friendfinder&ndash;&gt;-->
-            <!--<div class="folioItem">-->
-              <!--<a href="https://gg-friend-finder-app.herokuapp.com/">-->
-                <!--<div class="folioImageContainer">-->
-                  <!--<img src="assets/images/folio9_friendfinder.png" class="folioImage" alt="friend finder app">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>Friend Finder</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
-            <!--</div>-->
-
-            <!--&lt;!&ndash;PORTFOLIO ITEM #10 - Burger App&ndash;&gt;-->
-            <!--<div class="folioItem">-->
-              <!--<a href="https://burger-app-gg.herokuapp.com/">-->
-                <!--<div class="folioImageContainer">-->
-                  <!--<img src="assets/images/folio10_burgerApp.png" class="folioImage" alt="burger app">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>Burger App</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
-            <!--</div>-->
-
-
-
-<!--====================================================================-->
-
-          <!--&lt;!&ndash; RIGHT SIDE CONNECT WITH ME BOX &ndash;&gt;-->
-
-          <!--<div id="connectWithMeContainer" class="contentSection">-->
-            <!--<h2 id="connectWithMeCaption">Connect with Me</h2>-->
-            <!--<hr>-->
-            <!--<table id="logoFarm" width="100%">-->
-              <!--<tr>-->
-                <!--<td align="center"><a href="https://github.com/Geoff-Goodwin-Dev" target="_blank"><img src="assets/images/logo-github.png" width="45px" class="logoLink"></a></td>-->
-                <!--<td align="center"><a href="https://www.linkedin.com/in/geoff-goodwin-dev/" target="_blank"><img src="assets/images/logo-linkedin.png" width="45px" class="logoLink"></a></td>-->
-                <!--<td align="center"><a href="https://stackoverflow.com/users/9107950/geoff-goodwin" target="_blank"><img src="assets/images/logo-stackoverflow.png" width="45px" class="logoLink"></a></td>-->
-              <!--</tr>-->
-            <!--</table>-->
-          <!--</div>-->
-
-        <!--</div>-->
-
-      <!--</div>-->
-
+      <hr>
+      <h3>Projects</h3>
     </div>
+    <div id="headerContainer">
+      <h1>Geoffrey Goodwin</h1>
+    </div>
+
+<!--====================================================================-->
+
+    <div id="pageContentContainer">
+      <div id="pagepiling">
+
+        <div class="section" id="sectionAbout">
+          <div class="innerContainer">
+            <h2>About Me</h2>
+            <hr>
+            <img src="assets/images/headshotsquare.png" id="bioPic" alt="Geoff Goodwin promotional photo">
+          </div>
+        </div>
+
+        <div class="section" id="sectionProject1">
+          Project 1
+        </div>
+
+        <div class="section" id="sectionProject2">
+          Project 2
+        </div>
+
+        <div class="section" id="sectionProject3">
+          Project 3
+        </div>
+
+        <div class="section" id="sectionProject4">
+          Project 4
+        </div>
+
+        <div class="section" id="sectionProject5">
+          Project 5
+        </div>
+
+      </div>
+      <footer>
+        <div id="contactLinksContainer">
+          <h3>Connect with Me</h3>
+          <hr>
+          <a class="logoLink" href="https://github.com/Geoff-Goodwin-Dev" target="_blank">
+            <img src="assets/images/logo-github.png" width="45px">
+          </a>
+          <a class="logoLink" href="https://www.linkedin.com/in/geofflgoodwin/" target="_blank">
+            <img src="assets/images/logo-linkedin.png" width="45px">
+          </a>
+          <a class="logoLink" href="https://stackoverflow.com/users/9107950/geoff-goodwin" target="_blank">
+            <img src="assets/images/logo-stackoverflow.png" width="45px">
+          </a>
+        </div>
+      </footer>
+    </div>
+
+              <!--<a href="https://geoff-goodwin-dev.github.io/Hangman-Game/" target="_blank">-->
+              <!--<a href="https://geoff-goodwin-dev.github.io/Role-Playing-Game/">-->
+              <!--<a href="https://geoff-goodwin-dev.github.io/TriviaGame/">-->
+              <!--<a href="https://geoff-goodwin-dev.github.io/GifTastic/">-->
+              <!--<a href="https://geoff-goodwin-dev.github.io/RPS-Multiplayer/">-->
+              <!--<a href="https://github.com/Geoff-Goodwin-Dev/liri-node-app">-->
+              <!--<a href="https://github.com/Geoff-Goodwin-Dev/Constructor-Word-Guess">-->
+              <!--<a href="https://github.com/Geoff-Goodwin-Dev/Bamazon-NodeJS-MySQL">-->
+              <!--<a href="https://gg-friend-finder-app.herokuapp.com/">-->
+              <!--<a href="https://burger-app-gg.herokuapp.com/">-->
 
   </body>
 </html>

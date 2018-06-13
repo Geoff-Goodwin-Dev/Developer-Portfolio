@@ -1,11 +1,11 @@
 $(document).ready(function() {
   $('#pagepiling').pagepiling({
     menu: '#myMenu',
-    direction: 'horizontal',
+    direction: 'vertical',
     verticalCentered: true,
     sectionsColor: [],
-    anchors: ['About', 'secondPage', 'thirdPage', 'fourthPage'],
-    scrollingSpeed: 300,
+    anchors: ['About', 'Project1', 'Project2', 'Project3', 'Project4', 'Project5'],
+    scrollingSpeed: 500,
     easing: 'swing',
     loopBottom: true,
     loopTop: false,
@@ -14,7 +14,7 @@ $(document).ready(function() {
       'textColor': '#000',
       'bulletsColor': '#000',
       'position': 'right',
-      'tooltips': ['About', 'Portfolio: Skynet', 'Portfolio: The Code Dictator', 'Portfolio: ']
+      'tooltips': ['About', 'Skynet', 'The Code Dictator', 'Burger', 'Constructor Word Guess', 'Bamazon']
     },
     normalScrollElements: null,
     normalScrollElementTouchThreshold: 5,
