@@ -5,16 +5,16 @@ $(document).ready(function() {
     verticalCentered: true,
     sectionsColor: [],
     anchors: ['About', 'Project1', 'Project2', 'Project3', 'Project4', 'Project5'],
-    scrollingSpeed: 500,
-    easing: 'swing',
+    scrollingSpeed: 400,
+    easing: 'linear',
     loopBottom: true,
     loopTop: false,
     css3: true,
     navigation: {
       'textColor': '#000',
-      'bulletsColor': '#000',
+      'bulletsColor': '#fff',
       'position': 'right',
-      'tooltips': ['About', 'Skynet', 'The Code Dictator', 'Burger', 'Constructor Word Guess', 'Bamazon']
+      'tooltips': []
     },
     normalScrollElements: null,
     normalScrollElementTouchThreshold: 5,

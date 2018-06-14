@@ -3,24 +3,26 @@
 }
 
 body {
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 16px;
-  color: #888888;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 18px;
+  color: #EEEEEE;
+  background-color: black;
 }
 
 #headerContainer {
-  background-color: #00bb00;
+  background-color: rgb(102, 102, 153);
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
-  line-height: 50px;
+  line-height: 55px;
+  border-bottom: 1px solid rgb(235, 235, 235);
   padding: 0 10px;
   min-width: 300px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) ;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 34cdpx;
+  /*font-weight: bold;*/
   text-align: center;
 }
 
@@ -28,9 +30,9 @@ body {
   line-height: 18px;
   position: absolute;
   right: 0;
-  top: -90px;
+  top: -86px;
   z-index: 8;
-  background-color: rgba(200, 200, 200, 0.8);
+  background-color: rgba(192, 200, 230, 0.8);
   -webkit-transition: top 500ms;
   transition: top 500ms;
   text-align: right;
@@ -60,31 +62,31 @@ li {
 }
 
 li:hover {
-  background-color: #0000cc;
+  background-color: rgb(0, 0, 153);
   color: white;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
 
 #projectsDropDown:hover {
-  top: 49px;
+  top: 55px;
 }
 
-
 #pageContentContainer {
-  clear: both;
   min-width: 300px;
 }
 
 .innerContainer {
-  background-color: #C0FFEE;
+  background-color: rgb(192, 200, 230);
   width: 85%;
+  max-width: 980px;
   height: 75%;
-  max-height: 600px;
+  max-height: 500px;
   margin: 0 auto;
   border: 1px solid rgb(235, 235, 235);
   border-radius: 3px;
   padding: 20px 40px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);
+  min-height: 350px;
 }
 
 .innerContainer > hr {
@@ -93,18 +95,38 @@ li:hover {
 }
 
 #sectionAbout {
-  background-color: #5e7f7e;
+  background-color: rgba(51, 0, 204, 0.1);
+  background-image: url("../images/bg0.png");
+  background-repeat: repeat;
 }
 
-#bioPic {
-  max-height: 400px;
-  height: 60%;
-  margin: 0 20px;
-  border-radius: 3px;
+#bioPicDiv {
+  max-width: 366px;
+  max-height: 366px;
+  margin: 0 auto;
+  background-image: url("../images/headshotsquare.png");
+  background-size: contain;
+  border-radius: 100%;
+  border: 1px solid rgb(235, 235, 235);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#bioPicDiv:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+#bioPicContainer {
+  /*width: 50%;*/
+  max-width: 50%;
+  height: 80%;
 }
 
 #sectionProject1 {
-  background-color: green;
+  background-color: rgba(51, 0, 153, 0.1);
+  background-image: url("../images/bg1.png");
+  background-repeat: repeat;
 }
 
 
@@ -113,25 +135,32 @@ li:hover {
 }
 
 #sectionProject2 {
-  background-color: #242bb3;
+  background-color: rgba(51, 0, 102, 0.2);
+  background-image: url("../images/bg2.png");
+  background-repeat: repeat;
 }
 
 #sectionProject3 {
-  background-color: #761c19;
+  background-color: rgba(51, 0, 51, 0.2);
+  background-image: url("../images/bg3.png");
+  background-repeat: repeat;
 }
 
 #sectionProject4 {
-  background-color: #C0FFEE;
-}
+  background-color: rgba(0, 0, 51, 0.3);
+  background-image: url("../images/bg4.png");
+  background-repeat: repeat;}
 
 #sectionProject5 {
-  background-color: #3a87ad;
+  background-color: rgba(0, 9, 20, 0.3);
+  background-image: url("../images/bg5.png");
+  background-repeat: repeat;
 }
 
 /*FOOTER CONNECT WITH ME*/
 #contactLinksContainer {
   min-width: 196px;
-  background-color: rgba(200, 200, 200, 0.8);
+  background-color: rgba(192, 200, 230, 0.8);
   display: inline-block;
   padding: 5px 10px;
   z-index: 9;
