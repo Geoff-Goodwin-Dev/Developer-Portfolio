@@ -144,10 +144,25 @@ li:hover {
   overflow: scroll;
 }
 
+.screenshotContainer {
+  padding: 0 20px;
+  max-width: 50%;
+}
+
+.screenshotContainer > img {
+  border: 1px solid rgb(235, 235, 235);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 #sectionProject1 {
   background-color: rgba(51, 0, 153, 0.1);
   background-image: url("../images/bg1.png");
   background-repeat: repeat;
+}
+
+#project1 {
+  background-image: url("../images/prj_skynet.png");
+  width: 50%;
 }
 
 #sectionProject2 {
